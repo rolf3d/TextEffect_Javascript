@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.intro-text{
+    width: 40%;
+    opacity: 0;
+    height: 300px;
+    transform: translateY(20px);
+    transition: 1s all ease-in-out;
+    font-size: 1.1em;
+    margin: 22px;
+    float: left;
+}
+.intro-unhide{
+    opacity: 1;
+    transform: translateY(0px);
+}
+.mainimg{
+    width: 100%;
+}
+.smallimg{
+    width: 30%;
+    height: auto;
+    margin: 23px;
+    float: right;
+}
+.intro{
+    padding-top: 55px;
+    overflow: hidden;
+}
